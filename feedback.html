@@ -1,15 +1,68 @@
+<!-- Done by: Jaiyanah Baring -->
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Feedback</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback</title>
+<!-- BS SETUP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!-- CSS SETUP -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+<nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="">🚆 <b></b></a>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">About the students</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">QUARTER 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">QUARTER 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">QUARTER 3</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">QUARTER 4</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">WHAT'S NEXT</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">RATE US!</a></li>
+            </ul>
+            <input type="text" placeholder="Search." class="form-control" style="width: 200px;">
+            <button class="btn btn-warning">Search</button>
+        </div>
+    </nav>
+
+<div id="contact" class="container my-5">
+    <center><h2 class="mb-4">˚₊‧꒰ა 𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤 ໒꒱ ‧₊˚</h2></center>
+    <form onsubmit="showAlert(event)">
+        <!-- Name -->
+        <div class="mb-3">
+            <label for="name" class="form-label">𐙚 𝐍𝐚𝐦𝐞:</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name ✧₊⁺">
+        </div>
+        <!-- Email -->
+        <div class="mb-3">
+            <label for="email" class="form-label">𐙚 𝐄𝐦𝐚𝐢𝐥:</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter your email ✧₊⁺">
+        </div>
+        <!-- Message -->
+        <div class="mb-3">
+            <label for="message" class="form-label">𐙚 𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤:</label>
+            <textarea id="message" class="form-control" rows="4" placeholder="Feedback here!! ✧₊⁺"></textarea>
+        </div>
+        <!-- Rating Inputs -->
+        <div class="mb-3">
+            <label class="form-label">𐙚 𝐑𝐚𝐭𝐞 𝐨𝐮𝐫 𝐰𝐞𝐛𝐬𝐢𝐭𝐞 (𝟏-𝟓):</label>
+            <input type="number" id="rating1" class="form-control mb-2" placeholder="Design ✧₊⁺" min="1" max="5">
+            <input type="number" id="rating2" class="form-control mb-2" placeholder="Functionality ✧₊⁺" min="1" max="5">
+            <input type="number" id="rating3" class="form-control" placeholder="Content ✧₊⁺" min="1" max="5">
+        </div>
+        <!-- Buttons -->
+        <button type="submit" class="btn btn-dark">𓊈˖⁺⊹𝐒𝐮𝐛𝐦𝐢𝐭⊹⁺˖𓊉</button>
+        <button type="button" class="btn btn-dark" onclick="window.location.reload()">𓊈˖⁺⊹𝐑𝐞𝐟𝐫𝐞𝐬𝐡⊹⁺˖𓊉</button>
+    </form> 
+</div>
+
+<script src="main.js"></script>
 
 </body>
 </html>
