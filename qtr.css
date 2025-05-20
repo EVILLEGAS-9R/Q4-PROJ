@@ -1,0 +1,55 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.container {
+	background-color: #C1CEFE;
+	border-radius: 7px;
+	box-shadow: 2px 1px 23px 1px rgba(153,153,153,0.75);
+	padding: 2px 16px;
+	margin: 50px;
+	justify-content: center;
+}
+
+.card {
+	background-color: white;
+}
+
+.column {
+  display: inline;
+  width: 20%;
+  padding: 10px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.Ccontainer {
+  text-align: center;
+}
+
+button {
+	margin: 5px;
+}
+
+a {
+	text-decoloration: none;
+	text-decoration:none;
+	color: white;
+}
