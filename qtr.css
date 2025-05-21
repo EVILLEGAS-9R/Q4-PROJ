@@ -26,6 +26,12 @@ img {
 	justify-content: center;
 }
 
+.containerFooter {
+	padding: 2px 16px;
+	margin: 12px;
+	justify-content: center;
+}
+
 .card {
 	background-color: white;
 }
