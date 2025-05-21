@@ -1,20 +1,6 @@
-
 body {
   font-family: 'Raleway', sans-serif;
-  color: white; 
-  margin: 0;
-  padding: 0;
 }
 
 .containerFooter {
   padding: 20px;
-
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  background-color: #C1CEFE;
-  border-radius: 8px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-}
