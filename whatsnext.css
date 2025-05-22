@@ -2,11 +2,6 @@ body {
   	font-family: 'Raleway', sans-serif;
 }
 
-.containerFooter {
-  	padding: 2px 16px;
-	margin: 20px;
-}
-
 .container {
 	background-color: #C1CEFE;
 	border-radius: 7px;
