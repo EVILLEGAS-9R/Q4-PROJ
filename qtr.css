@@ -23,10 +23,10 @@ h1 {
 }
 
 .containerFooter {
-	padding: 2px 16px;
-	margin: 20px;
+	padding: 2px 20px 0px 76px;
 	justify-content: center;
 }
+
 
 .card {
 	background-color: white;
