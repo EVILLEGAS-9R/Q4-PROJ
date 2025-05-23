@@ -14,13 +14,29 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="about.css"/>
+  <link rel="stylesheet" href="about.css" />
 
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+  <!-- INLINE CARD STYLE FOR UNIFORM HEIGHT -->
+  <style>
+    .card {
+      height: 100%;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -30,7 +46,7 @@
     <a class="navbar-brand" href="index.html">
       <img src="logo.jpg" alt="logo" width="55" height="55"> Group 1
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -72,17 +88,17 @@
 
     <!-- CARD 1 -->
     <div class="col-md-4 col-sm-6">
-      <h3 class="text-center">Jaiyanah Rae P. Baring</h3>
-      <div class="card mb-4">
+      <div class="card mb-4 h-100">
         <div class="row g-0 align-items-center">
           <div class="col-md-5 text-center">
             <img src="baring.jpg" alt="jai" style="border-radius: 50%; width: 50%;" />
           </div>
           <div class="col-md-7">
             <div class="card-body">
+              <h3 class="card-title text-center">Jaiyanah Rae P. Baring</h3>
               <p><strong>Grade & Section:</strong> 9-Ruby</p>
               <p><strong>Hobbies:</strong> Badminton, Reading</p>
-               <a href="https://jbaring-9r.github.io/Q2EX2/"><button type="button" class="btn btn-dark">Check profile!</button></a>
+              <a href="https://jbaring-9r.github.io/Q2EX2/"><button type="button" class="btn btn-dark">Check profile!</button></a>
               <mark>Future Radiologist</mark>
             </div>
           </div>
@@ -92,17 +108,17 @@
 
     <!-- CARD 2 -->
     <div class="col-md-4 col-sm-6">
-      <h3 class="text-center">Koby Martin E. Baylon</h3>
-      <div class="card mb-4">
+      <div class="card mb-4 h-100">
         <div class="row g-0 align-items-center">
           <div class="col-md-5 text-center">
             <img src="baylon.jpg" alt="koby" style="border-radius: 50%; width: 50%;" />
           </div>
           <div class="col-md-7">
             <div class="card-body">
+              <h3 class="card-title text-center">Koby Martin E. Baylon</h3>
               <p><strong>Grade & Section:</strong> 9-Ruby</p>
               <p><strong>Hobbies:</strong> Basketball, Taekwondo</p>
-               <a href="https://github.com/KBaylon-9R/KBaylon-9R-Q2Ex2 "><button type="button" class="btn btn-dark">Check profile!</button></a>
+              <a href="https://github.com/KBaylon-9R/KBaylon-9R-Q2Ex2"><button type="button" class="btn btn-dark">Check profile!</button></a>
               <mark>Future Pilot</mark>
             </div>
           </div>
@@ -112,14 +128,14 @@
 
     <!-- CARD 3 -->
     <div class="col-md-4 col-sm-6">
-      <h3 class="text-center">Charlize Liana M. Galang</h3>
-      <div class="card mb-4">
+      <div class="card mb-4 h-100">
         <div class="row g-0 align-items-center">
           <div class="col-md-5 text-center">
             <img src="galang.jpg" alt="lia" style="border-radius: 50%; width: 50%;" />
           </div>
           <div class="col-md-7">
             <div class="card-body">
+              <h3 class="card-title text-center">Charlize Liana M. Galang</h3>
               <p><strong>Grade & Section:</strong> 9-Ruby</p>
               <p><strong>Hobbies:</strong> Singing, Drawing</p>
               <a href="https://cgalang-9r.github.io/Q2EX2-Profile/"><button type="button" class="btn btn-dark">Check profile!</button></a>
@@ -132,14 +148,14 @@
 
     <!-- CARD 4 -->
     <div class="col-md-4 col-sm-6">
-      <h3 class="text-center">Samantha Erin A. Rebadulla</h3>
-      <div class="card mb-4">
+      <div class="card mb-4 h-100">
         <div class="row g-0 align-items-center">
           <div class="col-md-5 text-center">
             <img src="rebadulla.jpg" alt="erin" style="border-radius: 50%; width: 50%;" />
           </div>
           <div class="col-md-7">
             <div class="card-body">
+              <h3 class="card-title text-center">Samantha Erin A. Rebadulla</h3>
               <p><strong>Grade & Section:</strong> 9-Ruby</p>
               <p><strong>Hobbies:</strong> Volleyball, Singing</p>
               <a href="https://srebadulla-9r.github.io/Q2EX2-Profile/"><button type="button" class="btn btn-dark">Check profile!</button></a>
@@ -152,17 +168,17 @@
 
     <!-- CARD 5 -->
     <div class="col-md-4 col-sm-6">
-      <h3 class="text-center">Enzo Kelsea J. Villegas</h3>
-      <div class="card mb-4">
+      <div class="card mb-4 h-100">
         <div class="row g-0 align-items-center">
           <div class="col-md-5 text-center">
             <img src="villegas.jpg" alt="enzo" style="border-radius: 50%; width: 50%;" />
           </div>
           <div class="col-md-7">
             <div class="card-body">
+              <h3 class="card-title text-center">Enzo Kelsea J. Villegas</h3>
               <p><strong>Grade & Section:</strong> 9-Ruby</p>
               <p><strong>Hobbies:</strong> Playing sports, Working out</p>
-              <a href="evillegas-9r.github.io/Q2-EX2/"><button type="button" class="btn btn-dark">Check profile!</button></a>
+              <a href="https://evillegas-9r.github.io/Q2-EX2/"><button type="button" class="btn btn-dark">Check profile!</button></a>
               <mark>Future Anesthesiologist</mark>
             </div>
           </div>
@@ -204,5 +220,6 @@
 
 </body>
 </html>
+
 
 
