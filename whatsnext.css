@@ -10,3 +10,8 @@ body {
 	margin: 50px;
 	justify-content: center;
 }
+
+.containerFooter {
+	padding: 2px 20px 0px 76px;
+	justify-content: center;
+}
