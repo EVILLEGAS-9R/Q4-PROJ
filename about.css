@@ -1,7 +1,11 @@
-.card-body {
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.card {
   background-color: #C1CEFE !important;
   border: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-body p,
@@ -10,7 +14,11 @@
 }
 
 .card-body mark {
-  background-color: #9BA7E0; 
+  background-color: #9BA7E0;
   padding: 0.2em 0.4em;
   border-radius: 4px;
+}
+
+h4 {
+  margin-top: 1rem;
 }
