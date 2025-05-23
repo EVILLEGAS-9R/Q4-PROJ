@@ -5,12 +5,12 @@ body {
       background-color: #C1CEFE !important;
       border: none;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 90%; /* Slightly smaller */
+      width: 90%;
       margin: auto;
     }
     .card-body p,
     .card-body mark {
-      color: #000; /* black text for readability */
+      color: #000; 
     }
     .card-body mark {
       background-color: #9BA7E0;
