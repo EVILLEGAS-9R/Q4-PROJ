@@ -1,4 +1,4 @@
-// Done by: Jaiyanah Baring
+// JS: BARING
 
 function showAlert(event) {
     event.preventDefault();  // Add this line to stop form submission and page reload
