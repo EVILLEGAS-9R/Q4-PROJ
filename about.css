@@ -4,4 +4,18 @@ body {
 
 .card {
   background-color: #C1CEFE !important;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for a subtle elevation */
 }
+
+.card-body p,
+.card-body mark {
+  color: #000; /* Black text for better readability on light background */
+}
+
+.card-body mark {
+  background-color: #9BA7E0; /* Slightly darker than the card for visual interest */
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
