@@ -16,7 +16,17 @@ body {
       background-color: #9BA7E0;
       padding: 0.2em 0.4em;
       border-radius: 4px;
-    }
+    }.card {
+  height: 100%;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
   
 h4 {
   margin-top: 1rem;
